@@ -1,5 +1,5 @@
 module ApplicationHelper
-<<<<<<< HEAD
+#<<<<<<< HEAD
 
   # 根据所在的页面返回完整的标题                          # 在文档中显示的注释
   def full_title(page_title = '')                     # 定义方法，参数可选
@@ -11,7 +11,7 @@ module ApplicationHelper
     end
   end
 end
-=======
+#=======
 	def full_title(page_title = '')
     base_title = "Ruby on Rails Tutorial Sample App"
     if page_title.empty?
@@ -20,5 +20,5 @@ end
       page_title + " | " + base_title
     end
   end
-end
->>>>>>> filling-in-layout
+#end
+#>>>>>>> filling-in-layout
